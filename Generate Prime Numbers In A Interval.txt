@@ -1,0 +1,49 @@
+Generate Prime Numbers In A Interval (100 Marks)
+You just need to take two number as input from stdin and you need to find prime numbers between those two numbers and print them.
+
+Input Format
+You will be taking two numbers as an input from stdin one on each line respectively.
+
+Constraints
+1 <= N <= 10000
+
+Output Format
+You need to print the prime numbers one on each line to the stdout.
+
+Sample TestCase 1
+Input
+900
+1000
+Output
+907
+911
+919
+929
+937
+941
+947
+953
+967
+971
+977
+983
+991
+997
+
+SOLUTION:
+
+def main():
+    a = int(input(""))
+    b = int(input(""))
+    for num in range(a, b + 1):
+   
+        if num > 1:
+            for i in range(2, num):
+                if (num % i) == 0:
+                    break
+            else:
+                print(num)
+ # Write code here 
+
+main()
+
