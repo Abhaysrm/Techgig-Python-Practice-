@@ -1,0 +1,30 @@
+Say Hello To Python
+
+You just need to print 'Hello Python' to the stdout.
+
+Input Format
+You will be taking 'Hello Python' as input from stdin as for this problem.
+
+Constraints
+na
+
+Output Format
+You need to print 'Hello Python' to the stdout.
+
+Sample TestCase 1
+
+Input
+Hello Python
+
+Output
+Hello Python
+
+
+SOLUTION:
+
+def main():
+
+ # Write code here 
+    print("Hello Python")
+
+main()
