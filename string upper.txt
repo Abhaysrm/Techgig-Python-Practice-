@@ -1,0 +1,31 @@
+String upper (100 Marks)
+You just need to take string input from STDIN and check whether all the case-based characters (letters) of the string are uppercase or not.
+
+Input Format
+You will be taking a string as an input from STDIN.
+
+Constraints
+1 <= |S| <= 10000
+
+Output Format
+You need to print the Boolean value(either True or False) to the STDOUT.
+
+Sample TestCase 1
+Input
+This Is String Example
+Output
+False
+
+OUTPUT:
+
+def main():
+    x = input("")
+    if x.islower():
+        print("True")
+    elif x.isupper():
+        print("True")
+    else:
+        print("False")
+ # Write code here 
+
+main()
