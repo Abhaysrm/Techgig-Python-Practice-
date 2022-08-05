@@ -1,0 +1,29 @@
+String swap String (100 Marks)
+You just need to take string input from STDIN and print the string in which all the case-based characters have had their case swapped.
+
+Input Format
+You will be taking a string as an input from STDIN. 
+
+Constraints
+1 <= |S| <= 10^4
+
+Output Format
+You need to print the string to the STDOUT. 
+
+Sample TestCase 1
+Input
+THIS IS TECHGIG      
+Output
+this is techgig
+
+OUTPUT:
+
+def main():
+ x = input("")
+ if x.isupper():
+    print (x.lower())
+ else:
+     print(x.upper())
+ # Write code here 
+
+main()
