@@ -1,0 +1,27 @@
+String stripped (100 Marks)
+You just need to take string input from STDIN and print the string in which all whitespaces have been stripped from the beginning as well as end of the string.
+
+Input Format
+You will be taking a string as an input from STDIN. 
+
+Constraints
+1 <= |S| <= 10^4
+
+Output Format
+You need to print the string to the STDOUT. 
+
+Sample TestCase 1
+Input
+                         This Is Techgig
+Output
+This Is Techgig
+
+
+OUTPUT:
+
+def main():
+ x = input("")
+ print(x.strip())
+ # Write code here 
+
+main()
