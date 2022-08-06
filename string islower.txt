@@ -1,0 +1,29 @@
+String islower (100 Marks)
+You just need to take string input from stdin and checks whether all the case-based characters (letters) of the string are lowercase.
+
+Input Format
+You will be taking a string as an input from stdin.
+
+Constraints
+1 <= |S| <= 10000
+
+Output Format
+You need to print the boolean value(either True or False) to the stdout.
+
+Sample TestCase 1
+Input
+this
+Output
+True
+
+OUTPUT:
+
+def main():
+ x= input("")
+ if x.islower():
+     print("True")
+ else:
+     print("False")
+ # Write code here 
+
+main()
