@@ -1,0 +1,31 @@
+String Concatenation (100 Marks)
+You just need to take two strings as input from stdin and concatenate them and print the concatenated string to the stdout.
+
+Input Format
+You will be taking two strings as an input from stdin one on each line respectively.
+
+Constraints
+1 <= |S| <= 10000
+
+Output Format
+You need to print the concatenated string to the stdout.
+
+Sample TestCase 1
+Input
+Hello 
+Techgig
+Output
+HelloTechgig
+
+
+OUTPUT:
+
+def main():
+ x = input("")
+ y = input("")
+ x = x.strip()
+ y = y.strip()
+ print(x+y)
+ # Write code here 
+
+main()
