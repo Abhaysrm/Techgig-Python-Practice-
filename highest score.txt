@@ -1,0 +1,39 @@
+Highest Score (100 Marks)
+The score of N players is given and you have to find the highest score of an individual.
+
+Input Format
+The first line of input consists of number of players, N
+
+The second line of input consist of N separated scores of players
+
+Constraints
+1<= N <=11
+
+1<= score <=150
+
+Output Format
+Print the highest score
+
+Sample TestCase 1
+Input
+5
+12
+14
+19
+67
+89
+Output
+89
+
+OUTPUT:
+
+def main():
+ N = []
+ s = int(input(""))
+ for i in range(1, s+1):
+    ele = int(input(""))
+    N.append(ele)
+
+ print(max (N)) 
+
+main()
