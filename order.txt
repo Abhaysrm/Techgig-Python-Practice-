@@ -1,0 +1,43 @@
+Order (100 Marks)
+There are N members of a committee. A list is to made in alphabetical order.
+
+Input Format
+The first line of input consist of number of members, N.
+
+Next N lines consist of name of members.
+
+Constraints
+1<= N <=10
+
+Output Format
+Print the name in alphabetical order.
+
+Sample TestCase 1
+Input
+5
+Rahul
+Alia
+Sushma
+Faruk
+Varun
+
+Output
+Alia
+Faruk
+Rahul
+Sushma
+Varun
+
+OUTPUT:
+
+def main():
+    N=int(input(""))
+    s=[]
+    for i in range(N):
+        ele=input("")
+        s.append(ele)
+    s.sort()
+    for j in s:
+        print(j)
+
+main()
