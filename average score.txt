@@ -1,0 +1,42 @@
+Average Score (100 Marks)
+There are N players with their score in last 3 matches. You will have to create a dictionary and output the average score of the player asked upto 2 decimal places.
+
+Input Format
+The first line of input consist of number of players, N
+
+Next N lines consists of player name and their score in last three matches space separately.
+
+The last line of the input consist of the player in question.
+
+Constraints
+1<= N <=10
+
+Output Format
+Print the average score of the player asked.
+
+Sample TestCase 1
+
+Input
+3
+Warner 150 100 120
+Kohli 10 30 20
+Rohit 60 80 40
+Kohli
+
+Output
+20.00
+
+CODE:
+
+n = int(input())
+
+marks = {}
+
+for i in range(n):
+    name, *line = input().split()
+    scores = list(map(float, line))
+    marks[name] = scores
+query_name = input()
+
+print("{0:.2f}".format(round(sum(marks[query_name]) / len(marks[query_name]), 2)))
+
